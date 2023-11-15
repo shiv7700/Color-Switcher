@@ -1,3 +1,8 @@
+// reset button
+document.querySelector(".reset").addEventListener("click", () => {
+  document.body.style.backgroundColor = "#fffbf5";
+});
+
 // selecting buttons
 const btn1 = document.querySelector("#grey");
 const btn2 = document.querySelector("#white");
